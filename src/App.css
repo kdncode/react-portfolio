@@ -42,3 +42,7 @@
 .projects-grid {
   display: flex;
 }
+
+.category-tabs {
+  margin-top: 100px;
+}

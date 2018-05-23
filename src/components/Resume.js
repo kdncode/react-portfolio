@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
-class resume extends Component {
+class Resume extends Component {
     render() {
         return (
-            <div>
-                Resume
+            <div className="contact-body">
+                <Grid className="contact-grid">
+                    <Cell col={6}>1</Cell>
+                    <Cell col={6}>2</Cell>
+                </Grid>
             </div>
         );
     }
 }
 
-export default resume;
+export default Resume;

@@ -3,6 +3,7 @@
   background:linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
 }
 
+/* Landing */
 .landing-grid {
   text-align: center;
   position: fixed;
@@ -35,4 +36,9 @@
 .social i {
   font-size: 30px;
   color: #42e695;
+}
+
+/* Projects */
+.projects-grid {
+  display: flex;
 }

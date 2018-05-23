@@ -28,6 +28,7 @@ class Landing extends Component {
                 </Grid>
                 
             </div>
+            
         );
     }
 }

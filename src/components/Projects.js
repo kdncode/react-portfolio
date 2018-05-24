@@ -53,7 +53,7 @@ class projects extends Component {
             return (
                 <div className="projects-grid">
                     <Card shadow={5} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(https://cdn-images-1.medium.com/max/1280/1*y7JWssYTe4y6Fgmk6SfoKg.png) center no-repeat #46B6AC'}}>React #1</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/nodejs-frameworks.png) center no-repeat'}}>React #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenan convallis.
@@ -65,7 +65,7 @@ class projects extends Component {
                         </CardActions>
                     </Card>
                     <Card shadow={5} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(https://i1.wp.com/www.bolteraho.com/wp-content/uploads/2018/02/REACTjs-cover.jpg?resize=900%2C506) center no-repeat #46B6AC'}}>React #2</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://i0.wp.com/securitytraning.com/wp-content/uploads/2017/08/Nodejs-server-setup.png?fit=1224%2C618&ssl=1) center no-repeat'}}>React #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenan convallis.
@@ -77,7 +77,7 @@ class projects extends Component {
                         </CardActions>
                     </Card>
                     <Card shadow={5} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(https://d2sis3lil8ndrq.cloudfront.net/courses/66f18244-4d0c-49f5-accc-03284ba635e5.png) center no-repeat #46B6AC'}}>React #3</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://cdn-images-1.medium.com/max/1200/1*mr4iRSqGzoCev0HNwR3oiA.png) center no-repeat'}}>React #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenan convallis.

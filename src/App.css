@@ -115,3 +115,9 @@ textarea {
   background:linear-gradient(135deg, #1cd077 0%,#00aab3 100%);
 
 }
+
+/* Resume */
+.resume-right-col {
+  background: #ccc;
+  padding: 2em;
+}

@@ -5,11 +5,11 @@ import Skills from './Skill';
 class Resume extends Component {
     render() {
         return (
-            <div className="contact-body">
+            <div>
                 <Grid className="contact-grid">
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
-                            <img src="https://cdn.dribbble.com/users/50579/screenshots/1631047/scalacat.png" alt="" />
+                            <img style={{width: '300px', height: '250px'}} src="https://cdn.dribbble.com/users/50579/screenshots/1631047/scalacat.png" alt="" />
                         </div>
                         <h2>Khoa Nguyen</h2>
                         <h4>Software Engineer</h4>
@@ -68,12 +68,16 @@ class Resume extends Component {
                         {/* SKILLS */}
                         <h2>Skills</h2>
                         <Skills 
-                            skill="Reactjs"
+                            skill="ReactJs"
                             progress="90"
-                            skill="Nodejs"
+                        />
+                        <Skills 
+                            skill="NodeJs"
                             progress="95"
-                            skill="Express"
-                            progress="93"
+                        />
+                        <Skills 
+                            skill="ExpressJs"
+                            progress="92"
                         />
                     </Cell>
                 </Grid>

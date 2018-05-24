@@ -32,7 +32,7 @@ class App extends Component {
 					<div className="page-content" />
 					<Main />
 				</Content>
-				<Footer />
+				{/* <Footer /> */}
 			</Layout>
 		</div>
       </div>

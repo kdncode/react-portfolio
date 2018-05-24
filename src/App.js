@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
 		<div className="demo-big-content">
 			<Layout>
 				<Header className="header-color" title="My Portfolio" scroll>
-					<Navigation>
+					<Navigation className="navigation">
 						<Link to='/projects'>Projects</Link>
 						<Link to='/resume'>Resume</Link>
 						<Link to='/about'>About Me</Link>
@@ -31,6 +32,7 @@ class App extends Component {
 					<div className="page-content" />
 					<Main />
 				</Content>
+				<Footer />
 			</Layout>
 		</div>
       </div>

@@ -16,7 +16,7 @@ class Contact extends Component {
                         <input type="email" placeholder="Email"/><br/>
                         <input type="text" placeholder="Subject"/><br/>
                         <textarea>Your message</textarea><br/>
-                        <input type="submit" className="btnSubmit" value="Send"/><br/>
+                        <input type="submit" value="Send"/><br/>
                     </Cell>
                 </Grid>
             </div>

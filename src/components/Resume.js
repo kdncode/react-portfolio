@@ -23,6 +23,10 @@ class Resume extends Component {
                     </Cell>
                     <Cell col={8} className="resume-right-col">
                         <h2>Education</h2>
+                        <Grid>
+                            <Cell col={4}>University of North Texas</Cell>
+                            <Cell col={8}>2015 - 2017</Cell>
+                        </Grid>
                     </Cell>
                 </Grid>
             </div>

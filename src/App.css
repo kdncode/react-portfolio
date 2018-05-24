@@ -120,4 +120,5 @@ textarea {
 .resume-right-col {
   background: #ccc;
   padding: 2em;
+  text-align: left;
 }

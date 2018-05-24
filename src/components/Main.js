@@ -8,11 +8,10 @@ import Contact from './Contact';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={Landing} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Landing} />
+        <Route path={`${process.env.PUBLIC_URL}/projects`} component={Projects} />
+        <Route path={`${process.env.PUBLIC_URL}/resume`} component={Resume} />
+        <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
     </Switch>
 )
 

@@ -118,7 +118,7 @@ textarea {
 
 /* Resume */
 .resume-right-col {
-  background: #c3c;
   padding: 2em;
   text-align: left;
+  height: 100%;
 }

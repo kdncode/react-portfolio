@@ -25,7 +25,8 @@ class Resume extends Component {
                         <h2>Education</h2>
                         <Grid>
                             <Cell col={4}>University of North Texas</Cell>
-                            <Cell col={8}>2015 - 2017</Cell>
+                            <Cell col={4}>B.S. Computer Information Systems</Cell>
+                            <Cell col={4}>2015 - 2017</Cell>
                         </Grid>
                     </Cell>
                 </Grid>

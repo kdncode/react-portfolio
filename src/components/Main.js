@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import Landing from './Landing';
 import Projects from './Projects';
 import Resume from './Resume';
-import About from './About';
 import Contact from './Contact';
 
 const Main = () => (
